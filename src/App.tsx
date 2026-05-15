@@ -34,7 +34,7 @@ function App() {
    }, [])
 
    // Select the fact based on the current pointer in history
-   const currentFact = factsData[history[pointer]] || { title: '', text: '' };
+   const currentFact = factsData[history[pointer]] || "";
 
    return (
       <div className='container'>
@@ -44,9 +44,7 @@ function App() {
          </header>
 
          <main>
-            <div className='title'>{currentFact.title}</div>
-            <hr />
-            <div className='text'>{currentFact.text}</div>
+            <div className='text'>{currentFact}</div>
          </main>
 
          <section className='buttons'>

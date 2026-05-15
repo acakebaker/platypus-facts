@@ -63,20 +63,6 @@ main {
 	gap: 32px;
 }
 
-main .title {
-	font-size: 36px;
-	font-weight: 800;
-}
-
-main hr {
-	background: rgba(255, 255, 255, 0.4);
-	width: 80%;
-	max-width: 400px;
-	height: 4px;
-	border: none;
-	border-radius: 100px;
-}
-
 main .text {
 	font-size: 28px;
 	font-weight: 500;
