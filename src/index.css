@@ -1,5 +1,5 @@
 html {
-	background: rgb(7, 104, 96) linear-gradient(-25deg, rgb(7, 104, 96) 0%, rgb(13, 206, 190) 70%);
+	background: rgb(13, 206, 190) linear-gradient(-25deg, rgb(7, 104, 96) 0%, rgb(13, 206, 190) 70%);
 	color: white;
 	font-family: "Inter", sans-serif, system-ui;
 	text-transform: lowercase;
@@ -7,16 +7,18 @@ html {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100vh;
+	overflow: hidden;
 }
 
 body, #root {
-	height: 100vh;
+	height: 95vh;
 	margin: 0;
 	overflow: hidden;
 }
 
 .container {
-	height: 95%;
+	height: 100%;
 	width: calc(100% - 40px);
 	max-width: 1200px;
 	padding: 0 20px;
@@ -32,6 +34,8 @@ header {
 	padding: 32px 0;
 	display: flex;
 	gap: 20px;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 header img {
